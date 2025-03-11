@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-# This script is displaying somthing 
-files=(*)
-for i in "${files[@]}"; do
-  filename="${i#*-}"
-  if [ -f "$i" ]; then
-    echo "$filename"
-  fi
-done
